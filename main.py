@@ -27,7 +27,7 @@ data1 = "Student1", "Student2", "Student3"
 obmoc = ttk.Combobox(window ,values = data1)
 obmoc.place(x = 45, y = 320)
 
-data = "Student1", "Student2", "Student3"
+data = "Student1", "student2", "Student3"
 
 bl = Listbox(window, height= 5, selectmode= "multiple")
 for num in data:
