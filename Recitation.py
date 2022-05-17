@@ -9,7 +9,7 @@ try:
     Assignment = 95
     Quiz = 90
     Exam = 98
-    user_id = 10
+    user_id = 11
 
     record = connect.cursor()
     record.execute('UPDATE Table1 SET Fullname = ? WHERE id=?', (Fullname, user_id))
